@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:eni-balint.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:eni-balint.github.io#NeKhhSpw6Qen8bbBLTPZbjV68Q8x-Ur5xcqrmkSQixs",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:eni-balint.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "NeKhhSpw6Qen8bbBLTPZbjV68Q8x-Ur5xcqrmkSQixs",
+        "crv": "P-256",
+        "x": "mKmy3znT4deFJnvVr9W_ZbcRM-Vt9219AK54d1gWSaY",
+        "y": "_qiOIJubAxwd1ZI7jvAIVp49Of3u_Xvq-yQbwx141pk",
+        "alg": "ES256",
+        "x5c": [
+          "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"
+        ],
+        "x5t": "gBL5TDG0397aItbWwx_7x-snU_Y",
+        "x5t#S256": "yr6NCxlFz8ktvTLUuH-umUCcvRdVqiJh_mHrrWXHyc8",
+        "x5u": "https://eni-balint.github.io/.well-known/fullchain.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "eni-balint.github.io#NeKhhSpw6Qen8bbBLTPZbjV68Q8x-Ur5xcqrmkSQixs"
+  ]
+}
