@@ -1,0 +1,20 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1", "https://w3id.org/security/jwk/v1"],
+  "id": "did:web:eni-balint.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:eni-balint.github.io#key-1",
+      "type": "JsonWebKey",
+      "controller": "did:web:eni-balint.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "-t7nr8T1Y8NMosw1EI2oDITwkFHPPBHybWcbZI3ZPpA",
+        "y": "rh0eIh1zoFHE7PpkxE0dpLmnB6FIT0nFSp1BGM9WT0Q",
+        "alg": "ES256",
+        "x5u": "https://eni-balint.github.io/.well-known/x509CertificateChain.pem"
+      }
+    }
+  ],
+  "assertionMethod": ["did:web:eni-balint.github.io#key-1"]
+}
