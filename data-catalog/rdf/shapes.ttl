@@ -1,0 +1,33 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dataCatalogX: <https://w3id.org/dataCatalogX#> .
+
+#################################################################
+# DATA CATALOG REPRESENTATIVE
+#################################################################
+
+dataCatalogX:RepresentativeShape
+    a sh:NodeShape ;
+    sh:targetClass dataCatalogX:DataCatalogRepresentative ;
+
+    sh:property [
+        sh:path dataCatalogX:organization ;
+        sh:datatype xsd:string ;
+        sh:pattern "^did:" ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "dataCatalogX:organization must be the DID of the organisation." ;
+    ] ;
+
+    sh:property [
+        sh:path dataCatalogX:organizationName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path dataCatalogX:name ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] .
