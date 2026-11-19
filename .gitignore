@@ -1,0 +1,11 @@
+signing_key.pem
+signing_key_pkcs8.pem
+request.csr
+*.csr
+0000_*.pem
+0001_*.pem
+cert-0*.pem
+cert_x1-*.pem
+intermediates.pem
+certs/full_for_x5c.pem
+certs/chain_x2_clean.pem
